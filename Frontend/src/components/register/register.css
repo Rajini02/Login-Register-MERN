@@ -1,0 +1,49 @@
+.register{
+    width: 400px;
+    background: rgb(72, 127, 200);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 /10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.register > h1{
+    font-size: 3rem;
+    letter-spacing: 0.9px;
+    background: linear-gradient(
+      180deg,
+      rgba(249, 211, 180, 1) 20%,
+      rgba(249, 211, 180, 0) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin: 0 6rem;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid grey;
+    outline:rgb(0 0 0 /10%);
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 90%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: white;
+    font-size: 1.25rem;
+    padding: .5rem;
+    margin: .5rem 5.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 50%;
+}
